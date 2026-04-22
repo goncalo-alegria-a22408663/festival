@@ -76,9 +76,9 @@
         {% load static %}
         <img src="{% static 'festival/NA26.png' %}" alt="NOS Alive" style="height: 150px; vertical-align: middle; margin-right: 15px;">
         <nav>
-            <a href="{% url 'index' %}">Início</a>
-            <a href="{% url 'dias' %}">Dias</a>
-            <a href="{% url 'palcos' %}">Palcos</a>
+            <a href="{% url 'festival:index' %}">Início</a>
+            <a href="{% url 'festival:dias' %}">Dias</a>
+            <a href="{% url 'festival:palcos' %}">Palcos</a>
         </nav>
     </header>
 
