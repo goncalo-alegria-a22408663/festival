@@ -12,3 +12,5 @@ Adicionei um path para os dias
 No ficheiro layout.html adicionei nos links das paginas: festival:
 
 Criei o ficheiro dias.html que foi no fundo uma copia do palcos.html onde apenas alterei as variaveis do for
+
+Adicionei a referencia para cada concerto abrir a pagina individual
